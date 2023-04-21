@@ -3,6 +3,6 @@ Pandas
 Matplotlib 
 Seaborn
 Statsmodels
-Sklearn
-Pickle
+scikit-learn
 imblearn
+Flask 
