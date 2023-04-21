@@ -1,2 +1,21 @@
 <!Doctype html>
 <html lang ="en" dir="ltr" >
+    <head>
+        <meta charset= "utf8">
+        <title> Women Affair Predictor</title>
+    </head>
+    <body>
+        <h2 class='container-heading'><span class="heading_font">Women Affair Predictor</span></h2>
+        <div class='description'>
+            <p>A Machine Learning Web App, Built with Flask, Deployed using free cloud.</p>
+        </div>
+        <div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <label for="cars">Choose a car:</label>
+
+                <select name="Rateof marriage" id="Rateof marriage">
+                  <option value="">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
