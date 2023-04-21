@@ -11,11 +11,25 @@
         </div>
         <div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
-                <label for="cars">Choose a car:</label>
+                <label for="Women Affair Predictor">Choose Rate OF Marriage:</label>
 
                 <select name="Rateof marriage" id="Rateof marriage">
-                  <option value="">Volvo</option>
-                  <option value="saab">Saab</option>
-                  <option value="mercedes">Mercedes</option>
-                  <option value="audi">Audi</option>
-                </select>
+                  <option value="verypoor">VeryPoor</option>
+                  <option value="Poor">Poor</option>
+                  <option value="Average">Average</option>
+                  <option value="Good">Good</option>
+                  <option value="VeryGood">VeryGood</option>
+                </select><br>
+                <label for="Women Affair Predictor">Years of marriage:</label>
+                <input class=""form_input type = "text" name ="Years_of_marraige" placeholder="Years_of_marraige eg. 1,2.5,3,4,5,6.5 , etc"><br>
+                <label for="Women Affair Predictor">Religious</label>
+                <select name="Religious" id="Religious">
+                    <option value="Not Regilious">Not Regilious</option>
+                    <option value="Nearly Regilious">Nearly Regilious</option>
+                    <option value="Religious">Religious</option>
+                    <option value="Strongly Religious">Strongly Religious</option>
+                  </select><br>
+                  <label for="Women Affair Predictor">Education</label>
+                  <select name="Education" id= "Education">
+                    <option value>
+
